@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 测试测试测试测试测试测试测试测试测试测试测试测试
                        DESC
 
-  s.homepage         = 'https://github.com/bbbboy/podTest'
+  s.homepage         = 'https://chenhaoting@svn.sangame.com/svn/proj/sangame/futures/client/jjzt/ios/branches'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bbbboy' => '635211059@qq.com' }
-  s.source           = { :git => 'https://github.com/bbbboy/podTest.git', :tag => s.version.to_s }
+  s.source           = { :svn => 'https://chenhaoting@svn.sangame.com/svn/proj/sangame/futures/client/jjzt/ios/branches', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
